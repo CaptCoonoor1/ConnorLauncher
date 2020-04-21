@@ -23,7 +23,7 @@
             "mainServer": true,
             "autoconnect": true,
             "modules": [
-                "Module Objects Here"
+
             ]
         }
     ]
