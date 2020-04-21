@@ -23,7 +23,6 @@
             "mainServer": true,
             "autoconnect": true,
             "modules": [
-
             ]
         }
     ]
