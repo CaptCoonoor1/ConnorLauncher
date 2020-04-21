@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "",
+        "smallImageText": "Connors Server",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "servers": [
+        {
+            "id": "Minecraft-1.15.2",
+            "name": "Minecult - My server. ",
+            "description": "My main server, click to conenct",
+            "icon": "",
+            "version": "3.9.4",
+            "address": "minecult.net",
+            "minecraftVersion": "1.15.2",
+            "discord": {
+                "shortId": "Production",
+                "largeImageText": "Connor's Server",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+
+            ]
+        }
+    ]
+}
