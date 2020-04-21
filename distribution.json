@@ -1,29 +1,30 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "701004559589572639",
-        "smallImageText": "Minecult",
+        "clientId": "",
+        "smallImageText": "Connors Server",
         "smallImageKey": "seal-circle"
     },
-    "rss": "",
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
     "servers": [
         {
-            "id": "Minecult-1.15",
-            "name": "Minecult Main",
-            "description": "Hello!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
-            "version": "0.0.1",
-            "address": "minecult.net:25565",
+            "id": "Minecraft-1.15.2",
+            "name": "Minecult - My server. ",
+            "description": "My main server, click to conenct",
+            "icon": "",
+            "version": "3.9.4",
+            "address": "minecult.net",
             "minecraftVersion": "1.15.2",
             "discord": {
-                "shortId": "701004559589572639",
-                "largeImageText": "Yello122",
-                "largeImageKey": "mineculte"
+                "shortId": "Production",
+                "largeImageText": "Connor's Server",
+                "largeImageKey": "server-prod"
             },
             "mainServer": true,
             "autoconnect": true,
-            "modules": [
-            ]
+            "modules": []
         }
     ]
 }
