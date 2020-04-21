@@ -23,7 +23,29 @@
             "mainServer": true,
             "autoconnect": true,
             "modules": [
-                "Module Objects Here"
+{
+    "id": "com.example:artifact:1.0.0@jar.pack.xz",
+    "name": "Artifact 1.0.0",
+    "type": "Library",
+    "artifact": {
+        "size": 4231234,
+        "MD5": "7f30eefe5c51e1ae0939dab2051db75f",
+        "url": "http://files.site.com/maven/com/example/artifact/1.0.0/artifact-1.0.0.jar.pack.xz"
+    },
+    "subModules": [
+        {
+            "id": "examplefile",
+            "name": "Example File",
+            "type": "File",
+            "artifact": {
+                "size": 23423,
+                "MD5": "169a5e6cf30c2cc8649755cdc5d7bad7",
+                "path": "examplefile.txt",
+                "url": "http://files.site.com/examplefile.txt"
+            }
+        }
+    ]
+}
             ]
         }
     ]
