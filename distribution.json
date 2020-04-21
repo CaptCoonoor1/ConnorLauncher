@@ -1,52 +1,39 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "701004559589572639",
-        "smallImageText": "Minecult",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "",
-    "servers": [
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "701004559589572639",
+    "smallImageText": "Minecult",
+    "smallImageKey": "seal-circle"
+  },
+  "rss": "",
+  "servers": [
+    {
+      "id": "Minecult-1.15",
+      "name": "Minecult Main",
+      "description": "Hello!",
+      "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+      "version": "0.0.1",
+      "address": "minecult.net:25565",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "701004559589572639",
+        "largeImageText": "Yello122",
+        "largeImageKey": "mineculte"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
         {
-            "id": "Minecult-1.15",
-            "name": "Minecult Main",
-            "description": "Hello!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
-            "version": "0.0.1",
-            "address": "minecult.net:25565",
-            "minecraftVersion": "1.15.2",
-            "discord": {
-                "shortId": "701004559589572639",
-                "largeImageText": "Yello122",
-                "largeImageKey": "mineculte"
-            },
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-{
-    "id": "com.example:artifact:1.0.0@jar.pack.xz",
-    "name": "Artifact 1.0.0",
-    "type": "Library",
-    "artifact": {
-        "size": 4231234,
-        "MD5": "7f30eefe5c51e1ae0939dab2051db75f",
-        "url": "http://files.site.com/maven/com/example/artifact/1.0.0/artifact-1.0.0.jar.pack.xz"
-    },
-    "subModules": [
-        {
-            "id": "examplefile",
-            "name": "Example File",
-            "type": "File",
-            "artifact": {
-                "size": 23423,
-                "MD5": "169a5e6cf30c2cc8649755cdc5d7bad7",
-                "path": "examplefile.txt",
-                "url": "http://files.site.com/examplefile.txt"
-            }
+          "id": "com.example:artifact:1.0.0@jar.pack.xz",
+          "name": "Artifact 1.0.0",
+          "type": "Library",
+          "required" : "no",
+          "artifact": {
+            "MD5": "",
+            "url": ""
+          }
         }
-    ]
-}
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
