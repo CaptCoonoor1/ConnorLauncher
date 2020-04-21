@@ -1,42 +1,30 @@
 {
-  "version": "1.0.0",
-  "discord": {
-    "clientId": "385581240906022916",
-    "smallImageText": "WesterosCraft",
-    "smallImageKey": "seal-circle"
-  },
-  "java": {
-    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-  },
-  "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
-  "servers": [
-    {
-      "id": "WesterosCraft-1.11.2",
-      "name": "WesterosCraft Production Server",
-      "description": "Main WesterosCraft server. Connect to enter the Realm.",
-      "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-      "version": "3.9.4",
-      "address": "mc.westeroscraft.com",
-      "minecraftVersion": "1.11.2",
-      "discord": {
-        "shortId": "Production",
-        "largeImageText": "WesterosCraft Production Server",
-        "largeImageKey": "server-prod"
-      },
-      "mainServer": true,
-      "autoconnect": true,
-      "modules": [
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "12334567890123456789",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": [
         {
-          "id": "com.westeroscraft:westerosblocks:3.2.0-beta-1-190",
-          "name": "WesterosBlocks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17376788,
-            "MD5": "370f4f1804c93f498f31af8dac509605",
-            "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/mods/WesterosBlocks.jar"
-          }
+            "id": "Example_Server",
+            "name": "WesterosCraft Example Client",
+            "description": "Example WesterosCraft server. Connect for fun!",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+            "version": "0.0.1",
+            "address": "mc.westeroscraft.com:1337",
+            "minecraftVersion": "1.11.2",
+            "discord": {
+                "shortId": "Example",
+                "largeImageText": "WesterosCraft Example Server",
+                "largeImageKey": "server-example"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                "Module Objects Here"
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
